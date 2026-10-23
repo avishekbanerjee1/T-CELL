@@ -65,4 +65,4 @@ The training program performs FCM preprocessing on the fly. FCM can be computati
 1. FCM clusters are unsupervised and do not inherently know which cluster is tumor. The code uses a heuristic to select a tumor-like membership map; inspect overlays carefully.
 2. The model uses image-level labels only. It does not predict PD-L1, HER2, CD3, antigen specificity, actual treatment response, or patient eligibility.
 3. The ODE's antigen input is supplied by the user as a normalized illustrative value, not calibrated from a clinical assay.
-4. Do not report paper-reported numbers as reproduced unless obtained in a documented experiment with a matching protocol and dataset.
+
